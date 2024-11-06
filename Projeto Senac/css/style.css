@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f1eeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #48b281;
+}
+
+.logo img {
+    max-width: 250px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;    
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#mainSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    background: whitesmoke;
+    color: #555;
+    max-width: 80%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra para destaque */
+}  
+
+.mainImg{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mainImg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.conteudo {
+    color: #48b281;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.conteudo h1 {
+
+    font-size: 43px;
+    margin-bottom: 30px;
+
+}
+
+.conteudo p {
+
+    font-size: 20px;
+    margin: 30px 1px 30px;
+    text-align: center;
+    color: #555;
+
+}
+
+a button {
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 2px solid #000;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+a button:hover{ 
+    background-color: #48b281;
+    color: #f1eeee;
+}
+
+#sectionSobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    color: #555;
+    max-width: 80%;
+}
+
+#sectionSobre h1 {
+    color:#48b281;
+    justify-content:first baseline;
+    font-size: 43px;
+    margin-left: 30px;
+}
+
+#sectionSobre h2 {
+    color:#48b281;
+    font-size: 30px;
+    margin-left: 30px;
+}    
+
+#sectionSobre p {
+    margin: 30px 30px 30px 30px;
+    font-size: 20px;
+}
+
+.SobreImg p {
+    text-align: center;
+    margin: 3px;
+    color: #48b281;
+    font-weight: bold;
+}
+
