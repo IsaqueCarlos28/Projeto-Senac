@@ -27,7 +27,8 @@ body {
 
 
 .logo img {
-    max-width: 250px;
+    width: 140px;
+    margin-left: 100px;
 }
 
 nav {
@@ -79,11 +80,10 @@ nav a:hover {
     border-radius: 15px;
 }  
 
-.mainImg{
+.mainImg {
     display: flex;
     margin-top: 95px;
     margin-right: 20px;
-    
     margin-bottom: 20px;
 }
 
@@ -203,8 +203,8 @@ font-size: 90px;
 .imcContainer {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 35px;
+    margin: auto;
+    width: 1600px;
     gap: 90px;
     align-items: center;
 }
@@ -269,13 +269,6 @@ footer {
     background: #737373;
 }
 
-#contatosContainer {
-
-margin: auto;
-width: 1600px;
-
-}
-
 .contatosConteudo h1 {
 
     font-size: 50px;
@@ -291,19 +284,27 @@ width: 1600px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 20px auto;
-    max-width: 1150px;
+    margin: 50px auto;
+    max-width: 1600px;
     background-color: #48b281;
     border-radius: 10px;
 }
 
+
+
 .redeConteudo {
 
     display: flex;
-    gap: 20px;
+    gap: 40px;
 
 }
 
+.redeConteudo img:hover {
+
+    width: 120px;
+    transition: 0.5s;
+
+}
 
 
 #footerConteudo {
@@ -311,20 +312,12 @@ width: 1600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 70px;
+   
 }
-
-.imgFooterLogo {
-
-    height: 120px;
-    width: 240px;
-}
-
 
 .footerParagrafo {
 
- max-width: 20%;
- font-size: 17px;
+ width: 300px;
 
 }
 
@@ -336,9 +329,15 @@ width: 1600px;
 
 }
 
+.boldFooter{
+
+    font-weight: bold;
+
+}
+
 .contatosRodape li {
 
-    margin: 2.5px;
+    font-size: 25px;
 
 }
 
@@ -360,15 +359,15 @@ hr {
     padding-bottom: 20px;
 }
 
-.boldFooter {
-
-    font-weight: bold;
-    font-size: 18px;
-
-}
-
 .whatsApp {
 
     position: fixed; bottom: 100px; right: 100px;
 
 }
+.whatsApp a:hover {
+
+    opacity: 0.5;
+
+}
+
+    
