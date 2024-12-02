@@ -7,6 +7,7 @@
     font-family: "Host Grotesk", sans-serif;
 }
 
+/* Ajusta a suavilidade ao clicar no cabeçalho */
 html {
 
     scroll-behavior: smooth;
@@ -25,7 +26,7 @@ body {
 }
 
 
-
+/* Cabeçalho */
 .logo img {
     width: 140px;
     margin-left: 100px;
@@ -148,6 +149,7 @@ a button:hover{
     padding-top: 95px;
     color: #555;
     max-width: 1600px;
+
 }
 
 #sectionSobre h1 {
@@ -169,18 +171,19 @@ a button:hover{
     font-size: 27px;
 }
 
-
-#sectionDepoimento{
-
-    display: flex;
-    justify-content: center;
-   
-
-}
-
 .sobreImg h1 {
 
 font-size: 90px;
+
+}
+
+#sessaoIMC {
+    padding-top: 75px;
+}
+
+.tituloIMC {
+    font-size: 25px;
+    color: #48b281;
 
 }
 
@@ -188,15 +191,6 @@ font-size: 90px;
 
     display: flex;
     justify-content: center;
-    margin-bottom: 0px;
-
-}
-
-#sectionDepoimento {
-
-    margin: auto;
-    padding-top: 80px;
-    width: 1600px;
 
 }
 
@@ -264,6 +258,12 @@ button {
     color: #f1eeee;
 }
 
+#resultado {
+
+    margin-bottom: 18px;
+
+}
+
 footer {
     color: #f1eeee;
     background: #737373;
@@ -271,7 +271,7 @@ footer {
 
 .contatosConteudo h1 {
 
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 100px;
     padding-bottom: 100px;
     margin-left: 0px;
@@ -369,5 +369,6 @@ hr {
     opacity: 0.5;
 
 }
+
 
     
