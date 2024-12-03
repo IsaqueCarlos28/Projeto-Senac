@@ -69,6 +69,8 @@ nav a:hover {
 
 }
 
+
+/* Home */
 #mainSection {
     display: flex;
     justify-content: space-around;
@@ -135,6 +137,9 @@ a button:hover{
     transition: 0.5s;
 }
 
+
+/* Sobre Mim */
+
 #sectionSobre img{
 
     width: 500px;
@@ -177,6 +182,8 @@ font-size: 90px;
 
 }
 
+/* Página IMC */
+
 #sessaoIMC {
     padding-top: 75px;
 }
@@ -217,6 +224,8 @@ color: #555;
     color: #48b281;
 
 }
+
+/* Dentro da sessão IMC, tela de Cálculo */
 
 #calculadoraIMC {
 background: whitesmoke;
@@ -264,6 +273,8 @@ button {
 
 }
 
+/* Rodapé */
+
 footer {
     color: #f1eeee;
     background: #737373;
@@ -302,7 +313,7 @@ footer {
 .redeConteudo img:hover {
 
     width: 120px;
-    transition: 0.5s;
+    transition: 0.8s;
 
 }
 
